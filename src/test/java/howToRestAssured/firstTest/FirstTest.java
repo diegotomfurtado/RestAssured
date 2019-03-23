@@ -16,7 +16,27 @@ import io.restassured.specification.ResponseSpecification;
 
 @RunWith(Parameterized.class)
 public class FirstTest {
-	private static final String YOUR_AUTHENTICATION_TOKEN_GOES_HERE = null;
+
+//	private static final String YOUR_AUTHENTICATION_TOKEN_GOES_HERE = null;
+	
+	@Parameters
+	public static Object[][] createTestDataRecords() {
+	    return new Object[][] {
+	        {"2017",20},
+	        {"2016",21},
+	        {"1966",9}
+	    };
+	}
+	
+	private String season;
+
+    private int numberOfRaces;
+
+    public FirstTest(String season, int numberOfRaces) {
+        this.season = season;
+        this.numberOfRaces = numberOfRaces;
+    }	
+
 
 	@Test
 	public void makeSureThatGoogleIsUp() {
@@ -65,25 +85,7 @@ public class FirstTest {
 	        assertThat().
 	        body("MRData.CircuitTable.Circuits.circuitId",hasSize(numberOfRaces));
 	}
-	
-	@Parameters
-	public static Object[][] createTestDataRecords() {
-	    return new Object[][] {
-	        {"2017",20},
-	        {"2016",21},
-	        {"1966",9}
-	    };
-	}
-	
-	private String season;
-
-    private int numberOfRaces;
-
-    public FirstTest(String season, int numberOfRaces) {
-        this.season = season;
-        this.numberOfRaces = numberOfRaces;
-    }	
-	
+		
 	@Test
 	public void test_NumberOfCircuits_ShouldBe_DataDriven() {
 	                

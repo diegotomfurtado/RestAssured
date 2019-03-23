@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="howToRestAssured.firstTest.FirstTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2019-03-23T04:50:48" hostname="Diegos-MacBook-Pro-2.local" time="12.179">
+  <properties/>
+  <testcase name="test_NumberOfCircuits_ShouldBe20_Parameterized[0]" classname="howToRestAssured.firstTest.FirstTest" time="1.421"/>
+  <testcase name="test_APIWithBasicAuthentication_ShouldBeGivenAccess[0]" classname="howToRestAssured.firstTest.FirstTest" time="1.041"/>
+  <testcase name="test_NumberOfCircuits_ShouldBe_DataDriven[0]" classname="howToRestAssured.firstTest.FirstTest" time="0.418"/>
+  <testcase name="makeSureThatGoogleIsUp[0]" classname="howToRestAssured.firstTest.FirstTest" time="0.308"/>
+  <testcase name="test_ResponseHeaderData_ShouldBeCorrect[0]" classname="howToRestAssured.firstTest.FirstTest" time="0.401"/>
+  <testcase name="test_ScenarioRetrieveFirstCircuitFor2017SeasonAndGetCountry_ShouldBeAustralia[0]" classname="howToRestAssured.firstTest.FirstTest" time="0.848"/>
+  <testcase name="test_NumberOfCircuitsFor2017Season_ShouldBe20[0]" classname="howToRestAssured.firstTest.FirstTest" time="0.417"/>
+  <testcase name="test_NumberOfCircuits_ShouldBe20_UsingResponseSpec[0]" classname="howToRestAssured.firstTest.FirstTest" time="0.408"/>
+  <testcase name="test_NumberOfCircuits_ShouldBe20_Parameterized[1]" classname="howToRestAssured.firstTest.FirstTest" time="0.413"/>
+  <testcase name="test_APIWithBasicAuthentication_ShouldBeGivenAccess[1]" classname="howToRestAssured.firstTest.FirstTest" time="0.458"/>
+  <testcase name="test_NumberOfCircuits_ShouldBe_DataDriven[1]" classname="howToRestAssured.firstTest.FirstTest" time="0.411"/>
+  <testcase name="makeSureThatGoogleIsUp[1]" classname="howToRestAssured.firstTest.FirstTest" time="0.167"/>
+  <testcase name="test_ResponseHeaderData_ShouldBeCorrect[1]" classname="howToRestAssured.firstTest.FirstTest" time="0.399"/>
+  <testcase name="test_ScenarioRetrieveFirstCircuitFor2017SeasonAndGetCountry_ShouldBeAustralia[1]" classname="howToRestAssured.firstTest.FirstTest" time="0.821"/>
+  <testcase name="test_NumberOfCircuitsFor2017Season_ShouldBe20[1]" classname="howToRestAssured.firstTest.FirstTest" time="0.397"/>
+  <testcase name="test_NumberOfCircuits_ShouldBe20_UsingResponseSpec[1]" classname="howToRestAssured.firstTest.FirstTest" time="0.421"/>
+  <testcase name="test_NumberOfCircuits_ShouldBe20_Parameterized[2]" classname="howToRestAssured.firstTest.FirstTest" time="0.402"/>
+  <testcase name="test_APIWithBasicAuthentication_ShouldBeGivenAccess[2]" classname="howToRestAssured.firstTest.FirstTest" time="0.45"/>
+  <testcase name="test_NumberOfCircuits_ShouldBe_DataDriven[2]" classname="howToRestAssured.firstTest.FirstTest" time="0.397"/>
+  <testcase name="makeSureThatGoogleIsUp[2]" classname="howToRestAssured.firstTest.FirstTest" time="0.17"/>
+  <testcase name="test_ResponseHeaderData_ShouldBeCorrect[2]" classname="howToRestAssured.firstTest.FirstTest" time="0.387"/>
+  <testcase name="test_ScenarioRetrieveFirstCircuitFor2017SeasonAndGetCountry_ShouldBeAustralia[2]" classname="howToRestAssured.firstTest.FirstTest" time="0.813"/>
+  <testcase name="test_NumberOfCircuitsFor2017Season_ShouldBe20[2]" classname="howToRestAssured.firstTest.FirstTest" time="0.399"/>
+  <testcase name="test_NumberOfCircuits_ShouldBe20_UsingResponseSpec[2]" classname="howToRestAssured.firstTest.FirstTest" time="0.4"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

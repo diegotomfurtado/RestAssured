@@ -21,8 +21,6 @@ dependencies {
 	testCompile 'io.rest-assured:spring-web-test-client:3.3.0'
 	
 	testCompile 'io.rest-assured:scala-support:3.3.0'
-	
-	
     
 }
 
